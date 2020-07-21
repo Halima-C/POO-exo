@@ -68,7 +68,7 @@ def search_health_pack
     puts "T'as pas de chance dis donc..."
 
   elsif health_pack == 2 || health_pack == 3 || health_pack == 4 || health_pack == 5
-    if @life_points <= 100
+    if @life_points + 50 >= 100
       @life_points == 100
     else
       @life_points = @life_points + 50
