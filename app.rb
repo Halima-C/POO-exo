@@ -28,3 +28,5 @@ if player2.life_points <= 0
 		player2.attacks(player1)
 	end
 end
+
+binding.pry
